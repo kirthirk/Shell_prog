@@ -1,10 +1,3 @@
-/*
- * nokia_font.c
- *
- *  Created on: 03-May-2016
- *      Author: preetika
- */
-
 //#include "nokialcd.h"
 #include <stdint.h>
 #include <stdbool.h>
@@ -522,3 +515,4 @@ WriteSpiCommand(CASET);
 WriteSpiData(y);
 WriteSpiData(y);
 }
+
